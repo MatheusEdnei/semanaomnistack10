@@ -1,0 +1,32 @@
+EXPRESS:
+
+    Rotas: Endereço adicional que recebemos depois do endereço principal
+    da aplicação. Adicionamos rotas para acessar recursos.
+    O Express nos auxilia na criação de rotas da aplicação.
+    
+    Tipos de parâmetros:
+        - Query Params: 
+            - utilizados em geral nos métodos GET. São incorporados a URL (visíveis).
+            - acessíveis através de req.query e utilizados para filtros, ordenação, paginação.
+        
+        - Route Params: 
+            - Utilizados nos métodos PUT e DELETE. 
+            - Estamos especificando o elemento que queremos alterar.
+            - request.params (identificar um recurso na alteração, remoção)
+        - Body:
+            - Utilizado nos métodos POST e PUT.
+            - Contém os dados para criação ou alteração de um registro.
+            - request.body.
+
+CONTROLLER
+
+    Geralmente possuí os métodos:
+        - index: mostrar lista 
+        - show: mostra um unico
+        - store: criar
+        - update: alterar
+        - destroy: deletar
+
+Exercicio do dia 1:
+    - Criar os métodos de update, destroy do controller.
+
